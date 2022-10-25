@@ -1,0 +1,51 @@
+table {
+    text-align: center;
+}
+
+thead {
+    color: red;
+}
+
+p {
+    color: navy;
+}
+
+.linha1 th:hover, td:hover {
+    background-color: ivory;
+}
+
+.nome {
+    background-color: silver;
+}
+
+.frequencia {
+    background-color: limegreen;
+}
+
+.notas {
+    background-color: darksalmon;
+}
+
+.med {
+    background-color: dodgerblue;
+}
+
+
+img {
+    animation: anti 3s infinite;
+}
+
+
+@keyframes anti {
+    0% {
+        transform: rotate(270deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    70% {
+        transform: rotate(90deg);
+    }
+}
